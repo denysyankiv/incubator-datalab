@@ -61,8 +61,7 @@
                 <sonar.host.url>
                     http://localhost:9000/sonar
                 </sonar.host.url>
-                <sonar.sources>services/self-service/src/main/resources/webapp/src</sonar.sources>
-                <sonar.sources>../../infrastructure-provisioning</sonar.sources>
+                <sonar.sources>services/self-service/src/main/resources/webapp/src,../../infrastructure-provisioning</sonar.sources>
                 <sonar.coverage.exclusions>
                     **/*Exception.java,
                     **/BucketServiceAwsImpl.java,
