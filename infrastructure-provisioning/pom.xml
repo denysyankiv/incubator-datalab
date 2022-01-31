@@ -19,21 +19,21 @@
 
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <parent>
-    <groupId>com.epam.datalab</groupId>
-    <artifactId>datalab</artifactId>
-    <version>1.0</version>
-    <relativePath>/../../../../../../pom.xml</relativePath>
-  </parent>
-  <artifactId>webapp</artifactId>
-  <name>Front End Module</name>
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.epam.datalab</groupId>
+        <artifactId>datalab</artifactId>
+        <version>1.0</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
+    <artifactId>devops</artifactId>
+    <name>DevOps Module</name>
 
-  <properties>
-    <sonar.language>js</sonar.language>
-  </properties>
+    <properties>
+        <sonar.language>python</sonar.language>
+    </properties>
 
-  <build>
-    <sourceDirectory>src</sourceDirectory>
-  </build>
+    <build>
+        <sourceDirectory>src,scripts</sourceDirectory>
+    </build>
 </project>
