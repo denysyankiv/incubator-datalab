@@ -61,7 +61,6 @@
                 <sonar.host.url>
                     http://localhost:9000/sonar
                 </sonar.host.url>
-                <sonar.projectBaseDir>.</sonar.projectBaseDir>
                 <sonar.coverage.exclusions>
                     **/*Exception.java,
                     **/BucketServiceAwsImpl.java,
@@ -106,6 +105,7 @@
         <module>services/billing-azure</module>
         <module>services/billing-gcp</module>
         <module>services/billing-aws</module>
+        <module>services/self-service/src/main/resources/webapp</module>
     </modules>
 
     <properties>
