@@ -302,6 +302,7 @@
                         <exclude>**/*.MockMaker</exclude>
                         <exclude>**/*.BillingToolConfigurationFactory</exclude>
                         <exclude>**/assets/**</exclude>
+                        <exclude>**/sonar-project.properties</exclude>
                     </excludes>
                 </configuration>
                 <executions>
